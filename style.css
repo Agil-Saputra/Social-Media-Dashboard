@@ -262,7 +262,6 @@ input:checked[type=checkbox]::before {
   gap: 1rem;
   background-color: var(--Light-Grayish-Blue);
   padding: 1rem 3rem;
-  border-radius: 10px;
   transition: 0.5s;
 }
 
