@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/social-media.png"
+    />
+    <title>My Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="background"></div>
+    <main>
+      <section class="head">
+        <div class="title">
+          <h1>Social Media Dashboard</h1>
+          <p>Total Followers: 23,004</p>
+        </div>
+        <div class="toggle">
+          <label for="toggle">Dark Mode</label>
+          <input type="checkbox" id="toggle"/>
+        </div>
+      </section>
+
+      <section class="container-grid">
+        <div class="card facebook">
+          <div class="name">
+            <img src="images/icon-facebook.svg" alt="" />
+            <p class="paraf">@nathanf</p>
+          </div>
+          <div class="followers">
+            <h1>1987</h1>
+            <p>Followers</p>
+          </div>
+          <div class="status only-card">
+            <img src="images/icon-up.svg" alt="" />
+            <p>12 Today</p>
+          </div>
+        </div>
+
+        <div class="card twitter">
+          <div class="name">
+            <img src="images/icon-twitter.svg" alt="" />
+            <p class="paraf">@nathanf</p>
+          </div>
+          <div class="followers">
+            <h1>1044</h1>
+            <p>Followers</p>
+          </div>
+          <div class="status only-card">
+            <img src="images/icon-up.svg" alt="" />
+            <p>99 Today</p>
+          </div>
+        </div>
+
+        <div class="card instagram">
+          <div class="name">
+            <img src="images/icon-instagram.svg" alt="" />
+            <p class="paraf">@realnathanf</p>
+          </div>
+          <div class="followers">
+            <h1>11k</h1>
+            <p>Followers</p>
+          </div>
+          <div class="status only-card">
+            <img src="images/icon-up.svg" alt="" />
+            <p>1099 Today</p>
+          </div>
+        </div>
+
+        <div class="card youtube">
+          <div class="name">
+            <img src="images/icon-youtube.svg" alt="" />
+            <p class="paraf">Nathan F.</p>
+          </div>
+          <div class="followers">
+            <h1>8239</h1>
+            <p>Subscribers</p>
+          </div>
+          <div class="status down only-card">
+            <img src="images/icon-down.svg" alt="" />
+            <p>144 Today</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-grid-overview">
+        <h1 class="title-overview">Overview - Today</h1>
+        <div class="overview-card-column">
+          <div class="child">
+            <div class="flex-between">
+              <p class="paraf">Page Views</p>
+              <img src="images/icon-facebook.svg" alt="" />
+            </div>
+            <div class="flex-between">
+              <h1>87</h1>
+              <div class="status overview">
+                <img src="images/icon-up.svg" alt="" />
+                <p>3%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="child">
+            <div class="flex-between">
+              <p class="paraf">Likes</p>
+              <img src="images/icon-facebook.svg" alt="" />
+            </div>
+            <div class="flex-between">
+              <h1>52</h1>
+              <div class="status overview">
+                <img src="images/icon-up.svg" alt="" />
+                <p>2%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="child">
+            <div class="flex-between">
+              <p class="paraf">Likes</p>
+              <img src="images/icon-instagram.svg" alt="" />
+            </div>
+            <div class="flex-between">
+              <h1>5462</h1>
+              <div class="status overview">
+                <img src="images/icon-up.svg" alt="" />
+                <p>2257%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="child">
+            <div class="flex-between">
+              <p class="paraf">Profile Views</p>
+              <img src="images/icon-instagram.svg" alt="" />
+            </div>
+            <div class="flex-between">
+              <h1>52k</h1>
+              <div class="status overview">
+                <img src="images/icon-up.svg" alt="" />
+                <p>1375%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="child">
+            <div class="flex-between">
+              <p class="paraf">Retweets</p>
+              <img src="images/icon-twitter.svg" alt="" />
+            </div>
+            <div class="flex-between">
+              <h1>117</h1>
+              <div class="status overview">
+                <img src="images/icon-up.svg" alt="" />
+                <p>303%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="child">
+            <div class="flex-between">
+              <p class="paraf">Likes</p>
+              <img src="images/icon-twitter.svg" alt="" />
+            </div>
+            <div class="flex-between">
+              <h1>507</h1>
+              <div class="status overview">
+                <img src="images/icon-up.svg" alt="" />
+                <p>553% </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="child">
+            <div class="flex-between">
+              <p class="paraf">Likes</p>
+              <img src="images/icon-youtube.svg" alt="" />
+            </div>
+            <div class="flex-between">
+              <h1>107</h1>
+              <div class="status overview">
+                <img src="images/icon-up.svg" alt="" />
+                <p>19%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="child">
+            <div class="flex-between">
+              <p class="paraf">Total Views</p>
+              <div class="image">
+                <img src="images/icon-youtube.svg" alt="" />
+              </div>
+            </div>
+            <div class="flex-between">
+              <h1>1407</h1>
+              <div class="status overview">
+                <img src="images/icon-up.svg" alt="" />
+                <p>12%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    </div>
+  </body>
+</html>
